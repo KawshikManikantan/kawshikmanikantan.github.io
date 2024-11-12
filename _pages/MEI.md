@@ -144,6 +144,27 @@ MEIRa takes as input a document and a set of succinct representative phrases, ea
    Identification module of MEIRa. A mention encoding mi is concatenated with each entity’s embedding in EW and the metadata χ(mi, ej ). Network f scores the likelihood of assigning mi to each major entity. If the highest score s∗i is above the threshold τ , mi is associated with the highest scoring major entity e∗i or discarded. In MEIRa-S, the entity memory EW remains static. For MEIRa-H (blue path), the assigned entity’s working memory is updated, and both the static (top half) and updated working memory (bottom half) are utilized to compute a final score.
 </div>
 
+#### Sample Outputs:
+
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-6 mb-3">
+        <a href="/assets/txt/Oliver_Text.txt" download class="btn btn-primary btn-lg w-100" target="_blank">Input - Oliver Twist</a>
+      </div>
+      <div class="col-6 mb-3">
+        <a href="/assets/html/Oliver.html" download class="btn btn-success btn-lg w-100" target="_blank">Output - Oliver Twist</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 mb-3">
+        <a href="/assets/txt/BlackBeauty_Text.txt" download class="btn btn-primary btn-lg w-100" target="_blank">Input - Black Beauty</a>
+      </div>
+      <div class="col-6 mb-3">
+        <a href="/assets/html/BlackBeauty.html" download class="btn btn-success btn-lg w-100" target="_blank">Output - Black Beauty</a>
+      </div>
+    </div>
+</div>
+
 <hr>
 
 ### Evaluation of LLMs
@@ -194,6 +215,26 @@ We also evaluate LLMs for their end-to-end referential capabilities on MEI. MEI 
   </div>
 </div>
 
-<hr>
+<br>
 
 #### Sample Outputs
+
+
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-6 mb-3">
+        <a href="/assets/txt/Oliver_Text.txt" download class="btn btn-primary btn-lg w-100" target="_blank">Input - Oliver Twist</a>
+      </div>
+      <div class="col-6 mb-3">
+        <a href="/assets/txt/Oliver_GPT.txt" download class="btn btn-success btn-lg w-100" target="_blank">Output - Oliver Twist</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 mb-3">
+        <a href="/assets/txt/BlackBeauty_Text.txt" download class="btn btn-primary btn-lg w-100" target="_blank">Input - Black Beauty</a>
+      </div>
+      <div class="col-6 mb-3">
+        <a href="/assets/txt/BlackBeauty_GPT.txt" download class="btn btn-success btn-lg w-100" target="_blank">Output - Black Beauty</a>
+      </div>
+    </div>
+</div>
