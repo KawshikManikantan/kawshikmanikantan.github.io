@@ -2,7 +2,7 @@
 layout: post
 permalink: /MEI/
 title: Major Entity Identification
-description: 'Project page for "Major Entity Identification: A Generalizable Alternative to Coreference Resolution" (EMNLP 2024).'
+description: Project page for Major Entity Identification (EMNLP 2024), a generalizable alternative to coreference resolution.
 nav: false
 related_posts: false
 date: 2024-11-08 00:22:16
