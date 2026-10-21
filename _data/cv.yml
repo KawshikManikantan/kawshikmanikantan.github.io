@@ -2,96 +2,160 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Kawshik Manikantan Sundar
+    - name: Position
+      value: Pre-Doctoral Researcher, Languages Group, Google DeepMind
+    - name: Location
+      value: Bengaluru, India
+    - name: Email
+      value: <a href="mailto:skawshik11@gmail.com">skawshik11@gmail.com</a>
+    - name: Profiles
+      value: <a href="https://scholar.google.com/citations?user=zxxKEqgAAAAJ">Google Scholar</a> &middot; <a href="https://github.com/KawshikManikantan">GitHub</a> &middot; <a href="https://linkedin.com/in/kawshik-manikantan">LinkedIn</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.Tech. + M.S. by Research (dual degree), Computer Science
+      institution: International Institute of Information Technology, Hyderabad (IIITH), India
+      year: 2019 – 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "CGPA: 9.27/10; Dean's Merit List in five consecutive semesters (Spring 2021 – Spring 2023)."
+        - "Thesis: <i>Coreference without Bells and Whistles</i>; advisors: Vineet Gandhi and Makarand Tapaswi."
+        - title: Coursework
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - "AI: Advanced NLP, Computer Vision, Statistical Methods in AI, Advanced Graph Learning, Information Retrieval and Extraction, Digital Image Processing."
+            - "Systems: Data Structures and Algorithms, Operating Systems and Networks, Design and Analysis of Software Systems."
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Pre-Doctoral Researcher
+      institution: Google DeepMind, Languages Group
+      location: Bengaluru, India
+      year: 2025 – now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing agentic training methods for efficient deep reasoning over long videos.
+        - Post-training Gemini to improve video reasoning across multilingual and multicultural contexts; co-authored the MINERVA-Cultural benchmark (CVPR 2026, Highlight).
+        - White-box analysis of cross-lingual factual retrieval in Gemini.
+    - title: Research Fellow Intern
+      institution: Advanced Micro Devices (AMD), AI Group
+      location: Bengaluru, India
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Improved generalization accuracy of a continual model-editing pipeline by ~15% with multi-faceted data augmentation.
+        - Built a continually updated, large-scale benchmark of recent Wikipedia edits to measure how well edited models adapt to new facts.
+    - title: Undergraduate Researcher
+      institution: Center for Visual Information Technology (CVIT), IIITH
+      location: Hyderabad, India
+      year: 2021 – 2025
       description:
+        - Proposed Major Entity Identification (MEI), a generalizable alternative to coreference resolution that transfers across domains and enables LLM evaluation (EMNLP 2024).
+        - Built IdentifyMe, a long-context mention-resolution benchmark for evaluating frontier LLMs (NAACL 2025, Oral).
+        - Multi-view detection and tracking in long sports videos, in collaboration with Star Sports.
+    - title: Research Intern
+      institution: Star Sports
+      location: Remote, India
+      year: 2022
+      description:
+        - Built and deployed an operator-free player-tracking system used live during the Asia Cup 2022 broadcasts.
+        - Drove ideation and feature development, and built the pre-deployment pipeline.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "MINERVA-Cultural: A Benchmark for Cultural and Multilingual Long Video Reasoning"
+      year: 2026
+      maindescription: "D. Singh, A. Nagrani, <b>K. Manikantan</b>, H. Singh, D. Tewari, T. Weyand, C. Schmid, A. Angelova, S. Dave. <i>CVPR 2026</i> (Highlight)."
+      linkitems:
+        - linkname: arXiv
+          link: https://arxiv.org/abs/2601.10649
+        - linkname: data
+          link: https://github.com/google-deepmind/neptune#minerva-cultural
+    - title: "IdentifyMe: A Challenging Long-Context Mention Resolution Benchmark for LLMs"
+      year: 2025
+      maindescription: "<b>K. Manikantan</b>, M. Tapaswi, V. Gandhi, S. Toshniwal. <i>NAACL 2025</i> (Oral)."
+      linkitems:
+        - linkname: paper
+          link: https://aclanthology.org/2025.naacl-short.64/
+        - linkname: arXiv
+          link: https://arxiv.org/abs/2411.07466
+        - linkname: code
+          link: https://github.com/KawshikManikantan/IdentifyMe
+    - title: "Major Entity Identification: A Generalizable Alternative to Coreference Resolution"
+      year: 2024
+      maindescription: "<b>K. Manikantan</b>, S. Toshniwal, M. Tapaswi, V. Gandhi. <i>EMNLP 2024</i>."
+      linkitems:
+        - linkname: paper
+          link: https://aclanthology.org/2024.emnlp-main.652/
+        - linkname: arXiv
+          link: https://arxiv.org/abs/2406.14654
+        - linkname: code
+          link: https://github.com/KawshikManikantan/MEI
+        - linkname: project page
+          link: /MEI/
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - CVPR 2026 Highlight for MINERVA-Cultural.
+    - year: 2025
       items:
-        - Max Planck Medal
+        - Oral presentation at NAACL 2025 for IdentifyMe.
+    - year: 2021 – 2023
+      items:
+        - Dean's Merit List, IIIT Hyderabad, five consecutive semesters (Spring 2021 – Spring 2023).
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Teaching and Service
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<b>Reviewer:</b> 7th Workshop on Narrative Understanding (WNU), NAACL 2025."
+    - "<b>Teaching Assistant</b>, Statistical Methods in AI, IIITH (Fall 2023): designed assignments, graded coursework, and conducted tutorials."
+    - "<b>Mentoring and organizing:</b> mentored incoming first-year students at IIITH; organizing team of Felicity, the institute's techno-cultural fest."
+
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: A Study of Tracking
+      maindescription: "Re-implemented <a href=\"https://arxiv.org/abs/1604.01802\">Tracking at 100 FPS</a> (GOTURN) and the <a href=\"https://arxiv.org/abs/1912.07515\">neural MOT solver</a> (MPNTrack), and extended the latter towards multi-view tracking. PyTorch, PyTorch Geometric."
+      linkitems:
+        - linkname: github
+          link: https://github.com/KawshikManikantan/Tracking_CV
+    - title: Modeling for NLP Tasks
+      maindescription: "Compared Bag-of-Words, LSTM, and DIIN models for natural language inference; implemented character-level convolutional (CREPE) and attention-based (CANINE) text classifiers; multi-class classification of mental-health disorders from Reddit posts with CNN, Random Forest, SVM, XGBoost, and DistilBERT. PyTorch Lightning, Keras, NLTK."
+      linkitems:
+        - linkname: NLI
+          link: https://github.com/KawshikManikantan/NLI_Analysis
+        - linkname: CREPE
+          link: https://github.com/KawshikManikantan/CREPE
+        - linkname: mental health
+          link: https://github.com/tgv2002/IRE-Project-Team-7
+    - title: SimpleRA DBMS
+      maindescription: "Relational DBMS with integer tables and matrix operations: two-phase on-disk merge sort, delayed-write buffer manager, linear-hash and B+-tree indexes. C++."
+      linkitems:
+        - linkname: github
+          link: https://github.com/KawshikManikantan/SimpleRA
+    - title: Wikipedia Search Engine
+      maindescription: "Search engine over a full Wikipedia dump, built from scratch: field-aware inverted index (title, infobox, body, categories, links, references) built by external k-way merging of partial indexes, with stemming, stop-word filtering, and field-restricted queries. Python, NLTK."
+      linkitems:
+        - linkname: github
+          link: https://github.com/KawshikManikantan/Wiki_Retrieval_System
+    - title: Linux Mini Shell
+      maindescription: "Shell with piping, redirection, background processes, and common built-ins, implemented directly on POSIX system calls. C."
+      linkitems:
+        - linkname: github
+          link: https://github.com/KawshikManikantan/Linux_Mini_Shell
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python, C/C++, Java, JavaScript, MATLAB
+    - title: ML and NLP
+      items:
+        - PyTorch (Lightning, Geometric), TensorFlow/Keras, scikit-learn, XGBoost, Hugging Face Transformers and Datasets, NLTK
+    - title: Tools
+      items:
+        - Linux, Git/Mercurial, Bazel

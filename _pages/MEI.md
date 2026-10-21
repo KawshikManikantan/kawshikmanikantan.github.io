@@ -1,11 +1,11 @@
 ---
 layout: post
 permalink: /MEI/
-title: Research
-description: Should contain info on current research. For now placeholder for MEI.
-nav: true
-nav_order: 2
-date: 2024-11-8 00:22:16
+title: Major Entity Identification
+description: 'Project page for "Major Entity Identification: A Generalizable Alternative to Coreference Resolution" (EMNLP 2024).'
+nav: false
+related_posts: false
+date: 2024-11-08 00:22:16
 _styles: >
     .list-container {
         background-color: #f8f9fa;

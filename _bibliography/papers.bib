@@ -1,13 +1,50 @@
 ---
 ---
 
-@article{manikantan2024majorentityidentificationgeneralizable,
-      bibtex_show={true},
-      title={Major Entity Identification: A Generalizable Alternative to Coreference Resolution}, 
-      author={Kawshik Manikantan and Shubham Toshniwal and Makarand Tapaswi and Vineet Gandhi},
-      year={2024},
-      journal={EMNLP},
-      abbr={EMNLP},
-      url={https://arxiv.org/abs/2406.14654},
-      selected={true}
+@inproceedings{singh2026minervacultural,
+  abbr={CVPR},
+  bibtex_show={true},
+  title={MINERVA-Cultural: A Benchmark for Cultural and Multilingual Long Video Reasoning},
+  author={Singh, Darshan and Nagrani, Arsha and Manikantan, Kawshik and Singh, Harman and Tewari, Dinesh and Weyand, Tobias and Schmid, Cordelia and Angelova, Anelia and Dave, Shachi},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2026},
+  arxiv={2601.10649},
+  code={https://github.com/google-deepmind/neptune#minerva-cultural},
+  award={Selected as a Highlight at CVPR 2026.},
+  award_name={Highlight},
+  abstract={Recent advancements in video models have shown tremendous progress, particularly in long video understanding. However, current benchmarks predominantly feature western-centric data and English as the dominant language, introducing significant biases in evaluation. To address this, we introduce MINERVA-Cultural, a challenging benchmark for multicultural and multilingual video reasoning. MINERVA-Cultural comprises high-quality, entirely human-generated annotations from diverse, region-specific cultural videos across 18 global locales. Unlike prior work that relies on automatic translations, MINERVA-Cultural provides complex questions, answers, and multi-step reasoning steps, all crafted in native languages. Making progress on MINERVA-Cultural requires a deeply situated understanding of visual cultural context. Furthermore, we leverage MINERVA-Cultural's reasoning traces to construct evidence-based graphs and propose a novel iterative strategy using these graphs to identify fine-grained errors in reasoning. Our evaluations reveal that SoTA Video-LLMs struggle significantly, performing substantially below human-level accuracy, with errors primarily stemming from the visual perception of cultural elements.},
+  selected={true}
+}
+
+@inproceedings{manikantan2025identifyme,
+  abbr={NAACL},
+  bibtex_show={true},
+  title={IdentifyMe: A Challenging Long-Context Mention Resolution Benchmark for LLMs},
+  author={Manikantan, Kawshik and Tapaswi, Makarand and Gandhi, Vineet and Toshniwal, Shubham},
+  booktitle={Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)},
+  year={2025},
+  arxiv={2411.07466},
+  html={https://aclanthology.org/2025.naacl-short.64/},
+  pdf={https://aclanthology.org/2025.naacl-short.64.pdf},
+  code={https://github.com/KawshikManikantan/IdentifyMe},
+  award={Oral presentation at NAACL 2025.},
+  award_name={Oral},
+  abstract={Recent evaluations of LLMs on coreference resolution have revealed that traditional output formats and evaluation metrics do not fully capture the models' referential understanding. To address this, we introduce IdentifyMe, a new benchmark for mention resolution presented in a multiple-choice question (MCQ) format, commonly used for evaluating LLMs. IdentifyMe features long narratives and employs heuristics to exclude easily identifiable mentions, creating a more challenging task. The benchmark also consists of a curated mixture of different mention types and corresponding entities, allowing for a fine-grained analysis of model performance. We evaluate both closed- and open source LLMs on IdentifyMe and observe a significant performance gap (20-30%) between the state-of-the-art sub-10B open models vs. closed ones. We observe that pronominal mentions, which have limited surface information, are typically much harder for models to resolve than nominal mentions. Additionally, we find that LLMs often confuse entities when their mentions overlap in nested structures. The highest-scoring model, GPT-4o, achieves 81.9% accuracy, highlighting the strong referential capabilities of state-of-the-art LLMs while also indicating room for further improvement.},
+  selected={true}
+}
+
+@inproceedings{manikantan2024mei,
+  abbr={EMNLP},
+  bibtex_show={true},
+  title={Major Entity Identification: A Generalizable Alternative to Coreference Resolution},
+  author={Manikantan, Kawshik and Toshniwal, Shubham and Tapaswi, Makarand and Gandhi, Vineet},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2024},
+  arxiv={2406.14654},
+  html={https://aclanthology.org/2024.emnlp-main.652/},
+  pdf={https://aclanthology.org/2024.emnlp-main.652.pdf},
+  code={https://github.com/KawshikManikantan/MEI},
+  website={/MEI/},
+  abstract={The limited generalization of coreference resolution (CR) models has been a major bottleneck in the task's broad application. Prior work has identified annotation differences, especially for mention detection, as one of the main reasons for the generalization gap and proposed using additional annotated target domain data. Rather than relying on this additional annotation, we propose an alternative referential task, Major Entity Identification (MEI), where we: (a) assume the target entities to be specified in the input, and (b) limit the task to only the frequent entities. Through extensive experiments, we demonstrate that MEI models generalize well across domains on multiple datasets with supervised models and LLM-based few-shot prompting. Additionally, MEI fits the classification framework, which enables the use of robust and intuitive classification-based metrics. Finally, MEI is also of practical use as it allows a user to search for all mentions of a particular entity or a group of entities of interest.},
+  selected={true}
 }

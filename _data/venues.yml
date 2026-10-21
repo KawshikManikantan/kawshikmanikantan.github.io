@@ -1,12 +1,10 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CVPR":
+  color: "#1f6feb"
+  url: https://cvpr.thecvf.com/Conferences/2026
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"NAACL":
+  color: "#9f3600"
+  url: https://2025.naacl.org/
 
 "EMNLP":
   color: "#009f36"
