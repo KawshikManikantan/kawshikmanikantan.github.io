@@ -16,49 +16,13 @@
   type: time_table
   contents:
     - title: B.Tech. (Honours, 2023) + M.S. by Research (2025), Computer Science (Dual Degree)
-      institution: International Institute of Information Technology, Hyderabad (IIITH), India
+      institution: International Institute of Information Technology (IIITH), Hyderabad, India
       year: 2019 – 2025
       description:
-        - "CGPA: 9.33/10 (M.S.), 9.26/10 (B.Tech. Honours); Dean's List (top 10–20%) for 5 consecutive semesters."
-        - "Thesis: <i>Coreference without Bells and Whistles</i>; advisors: Vineet Gandhi and Makarand Tapaswi."
-        - title: Coursework
-          contents:
-            - "AI: Advanced NLP, Computer Vision, Statistical Methods in AI, Advanced Graph Learning, Information Retrieval and Extraction, Digital Image Processing."
-            - "Systems: Data Structures and Algorithms, Operating Systems and Networks, Design and Analysis of Software Systems."
-
-- title: Research Experience
-  type: time_table
-  contents:
-    - title: Pre-Doctoral Researcher
-      institution: Google DeepMind, Languages Group
-      location: Bengaluru, India
-      year: 2025 – now
-      description:
-        - Developing agentic training methods for efficient deep visual search over long videos.
-        - Post-training Gemini to improve video reasoning across multilingual and multicultural contexts; co-authored the MINERVA-Cultural benchmark (CVPR 2026, Highlight).
-        - White-box analysis of cross-lingual factual retrieval in Gemini.
-    - title: Research Fellow Intern
-      institution: Advanced Micro Devices (AMD), AI Group
-      location: Bengaluru, India
-      year: 2024 – 2025
-      description:
-        - Improved continual model-editing generalization accuracy by ~15% through multi-faceted data augmentation.
-        - Built a continually updated, large-scale benchmark of recent Wikipedia edits to measure how well edited models adapt to new facts.
-    - title: Undergraduate Researcher
-      institution: Center for Visual Information Technology (CVIT), IIITH
-      location: Hyderabad, India
-      year: 2021 – 2025
-      description:
-        - Proposed Major Entity Identification (MEI), a generalizable alternative to coreference resolution that transfers across domains and enables LLM evaluation (EMNLP 2024).
-        - Built IdentifyMe, a long-context mention-resolution benchmark for frontier LLMs (NAACL 2025, Oral).
-        - Re-implemented <a href="https://arxiv.org/abs/1604.01802"><i>Tracking at 100 FPS</i></a> (GOTURN) and the <a href="https://arxiv.org/abs/1912.07515"><i>neural MOT solver</i></a> (MPNTrack), extending graph-based tracking to multi-view detection and tracking in long sports videos with Star Sports (<a href="https://github.com/KawshikManikantan/Tracking_CV">code</a>).
-    - title: Research Intern
-      institution: Star Sports
-      location: Remote, India
-      year: 2022
-      description:
-        - Built and deployed an operator-free player-tracking system used live during the Asia Cup 2022 broadcasts.
-        - Drove ideation and feature development for player segregation, and built the pre-deployment pipeline.
+        - "<b>CGPA:</b> 9.33/10 (M.S.), 9.26/10 (B.Tech. Honours); Dean's List (top 10–20%) for 5 consecutive semesters."
+        - "<b>Thesis:</b> <i>Coreference without Bells and Whistles</i>; advisors: Vineet Gandhi and Makarand Tapaswi."
+        - "<b>Coursework:</b> Advanced NLP, Computer Vision, Statistical Methods in AI, Advanced Graph Learning, Information Retrieval and Extraction, Digital Image Processing, Data Structures and Algorithms, Operating Systems and Networks, Design and Analysis of Software Systems."
+        - "<b>Teaching:</b> Teaching Assistant for Statistical Methods in AI (Fall 2023): designed assignments and led tutorials."
 
 - title: Publications
   type: time_table
@@ -94,63 +58,36 @@
         - linkname: project page
           link: /MEI/
 
-- title: Honors and Awards
+- title: Research Experience
   type: time_table
   contents:
-    - year: 2026
-      items:
-        - CVPR 2026 Highlight for MINERVA-Cultural.
-    - year: 2025
-      items:
-        - Oral presentation at NAACL 2025 for IdentifyMe.
-    - year: 2021 – 2023
-      items:
-        - Dean's Merit List, IIIT Hyderabad, five consecutive semesters (Spring 2021 – Spring 2023).
-
-- title: Teaching and Service
-  type: list
-  contents:
-    - "<b>Reviewer:</b> 7th Workshop on Narrative Understanding (WNU), NAACL 2025."
-    - "<b>Teaching Assistant</b>, Statistical Methods in AI, IIITH (Fall 2023): designed assignments, graded coursework, and conducted tutorials."
-    - "<b>Mentoring and organizing:</b> mentored incoming first-year students at IIITH; organizing team of Felicity, the institute's techno-cultural fest."
-
-- title: Selected Projects
-  type: time_table
-  contents:
-    - title: Modeling for NLP Tasks
-      maindescription: "Compared Bag-of-Words, LSTM, and DIIN models for natural language inference; implemented character-level convolutional (CREPE) and attention-based (CANINE) text classifiers; multi-class classification of mental-health disorders from Reddit posts with CNN, Random Forest, SVM, XGBoost, and DistilBERT. PyTorch Lightning, Keras, NLTK."
-      linkitems:
-        - linkname: NLI
-          link: https://github.com/KawshikManikantan/NLI_Analysis
-        - linkname: CREPE
-          link: https://github.com/KawshikManikantan/CREPE
-        - linkname: mental health
-          link: https://github.com/tgv2002/IRE-Project-Team-7
-    - title: SimpleRA DBMS
-      maindescription: "Relational DBMS with integer tables and matrix operations: two-phase on-disk merge sort, delayed-write buffer manager, linear-hash and B+-tree indexes. C++."
-      linkitems:
-        - linkname: github
-          link: https://github.com/KawshikManikantan/SimpleRA
-    - title: Wikipedia Search Engine
-      maindescription: "Search engine over a full Wikipedia dump, built from scratch: field-aware inverted index (title, infobox, body, categories, links, references) built by external k-way merging of partial indexes, with stemming, stop-word filtering, and field-restricted queries. Python, NLTK."
-      linkitems:
-        - linkname: github
-          link: https://github.com/KawshikManikantan/Wiki_Retrieval_System
-    - title: Linux Mini Shell
-      maindescription: "Shell with piping, redirection, background processes, and common built-ins, implemented directly on POSIX system calls. C."
-      linkitems:
-        - linkname: github
-          link: https://github.com/KawshikManikantan/Linux_Mini_Shell
-
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming
-      items:
-        - Python, C/C++, Java, JavaScript, MATLAB
-    - title: ML and NLP
-      items:
-        - PyTorch (Lightning, Geometric), TensorFlow/Keras, scikit-learn, XGBoost, Hugging Face Transformers and Datasets, NLTK
-    - title: Tools
-      items:
-        - Linux, Git/Mercurial, Bazel
+    - title: "Pre-Doctoral Researcher <span class=\"font-weight-normal\">| <i>Python, JAX, Bazel, Mercurial</i></span>"
+      institution: Google DeepMind, Languages Group
+      location: Bengaluru, India
+      year: 2025 – now
+      description:
+        - Developing agentic training methods for efficient deep visual search over long videos.
+        - Post-training Gemini to improve video reasoning across multilingual and multicultural contexts; co-authored the MINERVA-Cultural benchmark (CVPR 2026, Highlight).
+        - White-box analysis of cross-lingual factual retrieval in Gemini.
+    - title: "Research Fellow Intern <span class=\"font-weight-normal\">| <i>PyTorch, Hugging Face Transformers &amp; Datasets</i></span>"
+      institution: Advanced Micro Devices (AMD), AI Group
+      location: Bengaluru, India
+      year: 2024 – 2025
+      description:
+        - Improved continual model-editing generalization accuracy by ~15% through multi-faceted data augmentation.
+        - Built a continually updated, large-scale benchmark of recent Wikipedia edits to measure how well edited models adapt to new facts.
+    - title: "Undergraduate Researcher <span class=\"font-weight-normal\">| <i>PyTorch (Lightning, Geometric), NLTK</i></span>"
+      institution: Center for Visual Information Technology (CVIT), IIITH
+      location: Hyderabad, India
+      year: 2021 – 2025
+      description:
+        - Proposed Major Entity Identification (MEI), a generalizable alternative to coreference resolution that transfers across domains and enables LLM evaluation (EMNLP 2024).
+        - Built IdentifyMe, a long-context mention-resolution benchmark for frontier LLMs (NAACL 2025, Oral).
+        - Re-implemented <a href="https://arxiv.org/abs/1604.01802"><i>Tracking at 100 FPS</i></a> (GOTURN) and the <a href="https://arxiv.org/abs/1912.07515"><i>neural MOT solver</i></a> (MPNTrack), extending graph-based tracking to multi-view detection and tracking in long sports videos with Star Sports (<a href="https://github.com/KawshikManikantan/Tracking_CV">code</a>).
+    - title: "Research Intern <span class=\"font-weight-normal\">| <i>Python, PyTorch, OpenCV, C++</i></span>"
+      institution: Star Sports
+      location: Remote, India
+      year: 2022
+      description:
+        - Built and deployed an operator-free player-tracking system used live during the Asia Cup 2022 broadcasts.
+        - Drove ideation and feature development for player segregation, and built the pre-deployment pipeline.
