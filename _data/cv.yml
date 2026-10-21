@@ -19,7 +19,7 @@
       institution: International Institute of Information Technology, Hyderabad (IIITH), India
       year: 2019 – 2025
       description:
-        - "CGPA: 9.27/10; Dean's Merit List in five consecutive semesters (Spring 2021 – Spring 2023)."
+        - "CGPA: 9.27/10; Dean's List (top 10–15%) in five consecutive semesters (Spring 2021 – Spring 2023)."
         - "Thesis: <i>Coreference without Bells and Whistles</i>; advisors: Vineet Gandhi and Makarand Tapaswi."
         - title: Coursework
           contents:
@@ -38,9 +38,9 @@
         - Post-training Gemini to improve video reasoning across multilingual and multicultural contexts; co-authored the MINERVA-Cultural benchmark (CVPR 2026, Highlight).
         - White-box analysis of cross-lingual factual retrieval in Gemini.
     - title: Research Fellow Intern
-      institution: Advanced Micro Devices (AMD), AI Group
+      institution: Advanced Micro Devices (AMD), AI Models Group
       location: Bengaluru, India
-      year: 2025
+      year: 2024 – 2025
       description:
         - Improved generalization accuracy of a continual model-editing pipeline by ~15% with multi-faceted data augmentation.
         - Built a continually updated, large-scale benchmark of recent Wikipedia edits to measure how well edited models adapt to new facts.
