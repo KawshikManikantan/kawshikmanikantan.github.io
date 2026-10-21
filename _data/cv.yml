@@ -15,11 +15,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: B.Tech. + M.S. by Research (dual degree), Computer Science
+    - title: B.Tech. (Honours, 2023) + M.S. by Research (2025), Computer Science (Dual Degree)
       institution: International Institute of Information Technology, Hyderabad (IIITH), India
       year: 2019 – 2025
       description:
-        - "CGPA: 9.27/10; Dean's List (top 10–15%) in five consecutive semesters (Spring 2021 – Spring 2023)."
+        - "CGPA: 9.33/10 (M.S.), 9.26/10 (B.Tech. Honours); Dean's List (top 10–20%) for 5 consecutive semesters."
         - "Thesis: <i>Coreference without Bells and Whistles</i>; advisors: Vineet Gandhi and Makarand Tapaswi."
         - title: Coursework
           contents:
@@ -34,15 +34,15 @@
       location: Bengaluru, India
       year: 2025 – now
       description:
-        - Developing agentic training methods for efficient deep reasoning over long videos.
+        - Developing agentic training methods for efficient deep visual search over long videos.
         - Post-training Gemini to improve video reasoning across multilingual and multicultural contexts; co-authored the MINERVA-Cultural benchmark (CVPR 2026, Highlight).
         - White-box analysis of cross-lingual factual retrieval in Gemini.
     - title: Research Fellow Intern
-      institution: Advanced Micro Devices (AMD), AI Models Group
+      institution: Advanced Micro Devices (AMD), AI Group
       location: Bengaluru, India
       year: 2024 – 2025
       description:
-        - Improved generalization accuracy of a continual model-editing pipeline by ~15% with multi-faceted data augmentation.
+        - Improved continual model-editing generalization accuracy by ~15% through multi-faceted data augmentation.
         - Built a continually updated, large-scale benchmark of recent Wikipedia edits to measure how well edited models adapt to new facts.
     - title: Undergraduate Researcher
       institution: Center for Visual Information Technology (CVIT), IIITH
@@ -50,15 +50,15 @@
       year: 2021 – 2025
       description:
         - Proposed Major Entity Identification (MEI), a generalizable alternative to coreference resolution that transfers across domains and enables LLM evaluation (EMNLP 2024).
-        - Built IdentifyMe, a long-context mention-resolution benchmark for evaluating frontier LLMs (NAACL 2025, Oral).
-        - Multi-view detection and tracking in long sports videos, in collaboration with Star Sports.
+        - Built IdentifyMe, a long-context mention-resolution benchmark for frontier LLMs (NAACL 2025, Oral).
+        - Re-implemented <a href="https://arxiv.org/abs/1604.01802"><i>Tracking at 100 FPS</i></a> (GOTURN) and the <a href="https://arxiv.org/abs/1912.07515"><i>neural MOT solver</i></a> (MPNTrack), extending graph-based tracking to multi-view detection and tracking in long sports videos with Star Sports (<a href="https://github.com/KawshikManikantan/Tracking_CV">code</a>).
     - title: Research Intern
       institution: Star Sports
       location: Remote, India
       year: 2022
       description:
         - Built and deployed an operator-free player-tracking system used live during the Asia Cup 2022 broadcasts.
-        - Drove ideation and feature development, and built the pre-deployment pipeline.
+        - Drove ideation and feature development for player segregation, and built the pre-deployment pipeline.
 
 - title: Publications
   type: time_table
@@ -117,11 +117,6 @@
 - title: Selected Projects
   type: time_table
   contents:
-    - title: A Study of Tracking
-      maindescription: "Re-implemented <a href=\"https://arxiv.org/abs/1604.01802\">Tracking at 100 FPS</a> (GOTURN) and the <a href=\"https://arxiv.org/abs/1912.07515\">neural MOT solver</a> (MPNTrack), and extended the latter towards multi-view tracking. PyTorch, PyTorch Geometric."
-      linkitems:
-        - linkname: github
-          link: https://github.com/KawshikManikantan/Tracking_CV
     - title: Modeling for NLP Tasks
       maindescription: "Compared Bag-of-Words, LSTM, and DIIN models for natural language inference; implemented character-level convolutional (CREPE) and attention-based (CANINE) text classifiers; multi-class classification of mental-health disorders from Reddit posts with CNN, Random Forest, SVM, XGBoost, and DistilBERT. PyTorch Lightning, Keras, NLTK."
       linkitems:
