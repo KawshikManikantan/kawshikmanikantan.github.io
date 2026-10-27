@@ -19,17 +19,18 @@
       institution: International Institute of Information Technology (IIITH), Hyderabad, India
       year: 2019 – 2025
       description:
-        - "<b>CGPA:</b> 9.33/10 (M.S.), 9.26/10 (B.Tech. Honours); Dean's List (top 10–20%) for 5 consecutive semesters."
-        - "<b>Thesis:</b> <i>Coreference without Bells and Whistles</i>; advisors: Vineet Gandhi and Makarand Tapaswi."
+        - "<b>CGPA:</b> 9.33/10 (M.S.), 9.26/10 (B.Tech. Honours)."
+        - "<b>Awards:</b> Dean's List (top 10–20%) for 5 consecutive semesters."
+        - "<b>Thesis:</b> <i>Coreference without Bells and Whistles</i>; advisors: Prof. Vineet Gandhi and Prof. Makarand Tapaswi."
         - "<b>Coursework:</b> Advanced NLP, Computer Vision, Statistical Methods in AI, Advanced Graph Learning, Information Retrieval and Extraction, Digital Image Processing, Data Structures and Algorithms, Operating Systems and Networks, Design and Analysis of Software Systems."
-        - "<b>Teaching:</b> Teaching Assistant for Statistical Methods in AI (Fall 2023): designed assignments and led tutorials."
+        - "<b>Teaching:</b> Teaching Assistant for Statistical Methods in AI (Fall 2023)."
 
 - title: Publications
   type: time_table
   contents:
     - title: "MINERVA-Cultural: A Benchmark for Cultural and Multilingual Long Video Reasoning"
       year: 2026
-      maindescription: "D. Singh, A. Nagrani, <b>K. Manikantan</b>, H. Singh, D. Tewari, T. Weyand, C. Schmid, A. Angelova, S. Dave. <i>CVPR 2026</i> (Highlight)."
+      maindescription: "D. Singh, A. Nagrani, <b>K. Manikantan</b>, H. Singh, D. Tewari, T. Weyand, C. Schmid, A. Angelova, S. Dave. <b><i>CVPR 2026</i> (Highlight)</b>."
       linkitems:
         - linkname: arXiv
           link: https://arxiv.org/abs/2601.10649
@@ -37,7 +38,7 @@
           link: https://github.com/google-deepmind/neptune#minerva-cultural
     - title: "IdentifyMe: A Challenging Long-Context Mention Resolution Benchmark for LLMs"
       year: 2025
-      maindescription: "<b>K. Manikantan</b>, M. Tapaswi, V. Gandhi, S. Toshniwal. <i>NAACL 2025</i> (Oral)."
+      maindescription: "<b>K. Manikantan</b>, M. Tapaswi, V. Gandhi, S. Toshniwal. <b><i>NAACL 2025</i> (Oral)</b>."
       linkitems:
         - linkname: paper
           link: https://aclanthology.org/2025.naacl-short.64/
@@ -47,7 +48,7 @@
           link: https://github.com/KawshikManikantan/IdentifyMe
     - title: "Major Entity Identification: A Generalizable Alternative to Coreference Resolution"
       year: 2024
-      maindescription: "<b>K. Manikantan</b>, S. Toshniwal, M. Tapaswi, V. Gandhi. <i>EMNLP 2024</i>."
+      maindescription: "<b>K. Manikantan</b>, S. Toshniwal, M. Tapaswi, V. Gandhi. <b><i>EMNLP 2024</i></b>."
       linkitems:
         - linkname: paper
           link: https://aclanthology.org/2024.emnlp-main.652/
@@ -66,28 +67,28 @@
       location: Bengaluru, India
       year: 2025 – now
       description:
-        - Developing agentic training methods for efficient deep visual search over long videos.
-        - Post-training Gemini to improve video reasoning across multilingual and multicultural contexts; co-authored the MINERVA-Cultural benchmark (CVPR 2026, Highlight).
-        - White-box analysis of cross-lingual factual retrieval in Gemini.
+        - "Developing <b>agentic training methods</b> for efficient <b>deep visual search</b> over long videos."
+        - "<b>Post-training Gemini</b> to improve video reasoning across multilingual and multicultural contexts; co-authored the <b>MINERVA-Cultural</b> benchmark (<b>CVPR 2026, Highlight</b>)."
+        - "<b>White-box analysis</b> of cross-lingual factual retrieval in Gemini."
     - title: "Research Fellow Intern <span class=\"font-weight-normal\">| <i>PyTorch, Hugging Face Transformers &amp; Datasets</i></span>"
       institution: Advanced Micro Devices (AMD), AI Group
       location: Bengaluru, India
       year: 2024 – 2025
       description:
-        - Improved continual model-editing generalization accuracy by ~15% through multi-faceted data augmentation.
-        - Built a continually updated, large-scale benchmark of recent Wikipedia edits to measure how well edited models adapt to new facts.
+        - "Improved <b>continual model-editing</b> generalization accuracy by <b>~15%</b> through multi-faceted data augmentation."
+        - "Built a <b>continually updated, large-scale benchmark</b> of recent Wikipedia edits to measure how well edited models adapt to new facts."
     - title: "Undergraduate Researcher <span class=\"font-weight-normal\">| <i>PyTorch (Lightning, Geometric), NLTK</i></span>"
       institution: Center for Visual Information Technology (CVIT), IIITH
       location: Hyderabad, India
       year: 2021 – 2025
       description:
-        - Proposed Major Entity Identification (MEI), a generalizable alternative to coreference resolution that transfers across domains and enables LLM evaluation (EMNLP 2024).
-        - Built IdentifyMe, a long-context mention-resolution benchmark for frontier LLMs (NAACL 2025, Oral).
-        - Re-implemented <a href="https://arxiv.org/abs/1604.01802"><i>Tracking at 100 FPS</i></a> (GOTURN) and the <a href="https://arxiv.org/abs/1912.07515"><i>neural MOT solver</i></a> (MPNTrack), extending graph-based tracking to multi-view detection and tracking in long sports videos with Star Sports (<a href="https://github.com/KawshikManikantan/Tracking_CV">code</a>).
-    - title: "Research Intern <span class=\"font-weight-normal\">| <i>Python, PyTorch, OpenCV, C++</i></span>"
+        - "Proposed <b>Major Entity Identification (MEI)</b>, a generalizable alternative to coreference resolution that transfers across domains and enables LLM evaluation (<b>EMNLP 2024</b>)."
+        - "Built <b>IdentifyMe</b>, a long-context mention-resolution benchmark for frontier LLMs (<b>NAACL 2025, Oral</b>)."
+        - "Re-implemented <a href=\"https://arxiv.org/abs/1604.01802\"><i>Tracking at 100 FPS</i></a> (GOTURN) and the <a href=\"https://arxiv.org/abs/1912.07515\"><i>neural MOT solver</i></a> (MPNTrack), extending graph-based tracking to <b>multi-view detection and tracking</b> (<a href=\"https://github.com/KawshikManikantan/Tracking_CV\">code</a>)."
+    - title: "Research Intern <span class=\"font-weight-normal\">| <i>OpenCV, C++</i></span>"
       institution: Star Sports
       location: Remote, India
       year: 2022
       description:
-        - Built and deployed an operator-free player-tracking system used live during the Asia Cup 2022 broadcasts.
-        - Drove ideation and feature development for player segregation, and built the pre-deployment pipeline.
+        - "Deployed an <b>operator-free player-tracking system</b> used live during the <b>Asia Cup 2022</b> broadcasts."
+        - "Drove ideation and feature development for <b>player segregation</b>, and built the pre-deployment pipeline."
